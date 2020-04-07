@@ -1,0 +1,120 @@
+/*Colors and fonts*/
+body {
+
+	background-color:	rgb(222, 241, 244);
+	color:rgb(54, 21, 30);
+	font-family: Raleway;
+	font-size:16px;
+}
+
+h1,h2,h3{
+	font-weight: bolder;
+	color: rgb(105, 20, 14);
+	font-family: Bebas Neue;
+	letter-spacing: 6px
+
+}
+
+h1{
+	font-size:32px;
+}
+
+h2{ 
+	color:black
+	font-size:22px;	
+}
+
+a{
+	text-decoration: none;
+	font-family: Raleway;
+	color:rgb(105, 20, 14);
+	font-size:32px;
+	font-weight:bold;
+	transition: all 1s ease-out;
+}
+
+
+.container{ 
+width:700px;
+margin:40px auto}
+
+.box-green{
+	background-color:rgb(234, 255, 224);
+	padding:30px 50px 50px;
+	box-shadow:0 10px 30px rgba(0,0,0,.2);
+	border-radius:20px;
+	margin: 100px auto;
+	text-align:center;
+}
+
+.img-circle{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+}
+
+.btn-white{
+	background-color:white;
+	padding:15px 20px;
+	border-radius:10px;
+	box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+.btn-white:hover {
+	color:rgb(234, 140, 85);
+	font-weight: bolder;
+	font-family:Raleway;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left:0px;
+}
+
+.list-horizontal li {
+	display:inline;
+	padding:20px;
+}
+
+.list-horizontal i{
+	font-size:50px;
+	color:rgb(105, 20, 14);
+	transition: all 1s ease-out
+}
+
+.list-horizontal i:hover {
+	font-size:60px;
+	color:rgb(234, 140, 85);
+}
+
+#introduction p {
+margin-bottom:40px;
+}
+
+#follow-me ul{
+margin-top: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+ }
+
+
+/* colors to use:
+36151E: bordeaux
+114B5F: bleu canard foncé;
+A1C181: vert clair
+93B1A7: bleu clair;
+416770: bleu canard clair
+*/
